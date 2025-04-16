@@ -1,0 +1,65 @@
+.about-us-container {
+    padding: 3rem 1rem;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(135deg, #1a1a1a, #000000);
+    min-height: 100vh;
+  }
+  
+  .about-us-content {
+    max-width: 800px;
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 2rem 2.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.6);
+  }
+  
+  .about-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #00ffff;
+  }
+  
+  .section-title {
+    font-size: 1.8rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #00d1b2;
+  }
+  
+  .about-description {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #e5e7eb;
+    margin-bottom: 1.2rem;
+  }
+  
+  .feature-list {
+    list-style-type: '✅ ';
+    padding-left: 1.5rem;
+    color: #d1d5db;
+    margin-bottom: 1.5rem;
+  }
+  
+  .how-it-works {
+    list-style-type: decimal;
+    padding-left: 1.5rem;
+    color: #d1d5db;
+    margin-bottom: 1.5rem;
+  }
+  
+  @media (max-width: 600px) {
+    .about-us-content {
+      padding: 1.5rem;
+    }
+  
+    .about-title {
+      font-size: 2rem;
+    }
+  
+    .section-title {
+      font-size: 1.5rem;
+    }
+  }

@@ -32,3 +32,20 @@ body, html {
   font-size: 1.5rem;
   color: #d1d5db;
 }
+.navbar {
+  background-color: #111;
+  padding: 1rem;
+  text-align: center;
+}
+
+.nav-link {
+  color: #00ffff;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
